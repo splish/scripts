@@ -1,0 +1,39 @@
+{
+  "name": "@splish-me/scripts",
+  "version": "0.0.0-development",
+  "bugs": {
+    "url": "https://github.com/splish-me/scripts/issues"
+  },
+  "author": "Splish UG (haftungsbeschränkt)",
+  "contributors": [
+    "Jonas Keinholz <jonas@keinholz.com>"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": "splish-me/scripts",
+  "scripts": {
+    "commit": "git-cz",
+    "format": "prettier --write \"{src/**/*,*}.{js,json}\"",
+    "lint": "eslint \"{src/**/*,*}.js\"",
+    "test:watch": "jest --watch",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.8.0",
+    "eslint-config-universe": "^1.0.6",
+    "prettier": "^1.7.4",
+    "semantic-release": "^8.0.3"
+  },
+  "peerDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
