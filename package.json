@@ -8,6 +8,9 @@
   "contributors": ["Jonas Keinholz <jonas@keinholz.com>"],
   "license": "MIT",
   "main": "src/index.js",
+  "bin": {
+    "splish-scripts": "src/index.js"
+  },
   "repository": "splish-me/scripts",
   "scripts": {
     "commit": "git-cz",
