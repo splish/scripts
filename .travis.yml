@@ -8,7 +8,7 @@ cache:
 notifications:
   email: false
 after_success:
-  - yarn semantic-release
+  - npx semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
