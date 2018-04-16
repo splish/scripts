@@ -14,4 +14,4 @@ yarn add @splish-me/scripts --dev
 
 ### `splish-scripts format`
 
-Executes `prettier --write "{src/**/*,*}.{ts,tsx,js,jsx,json,css,scss,less}"` with the [included default config](src/configs/prettierrc.json).
+Executes `prettier --write "{{.storybook,src}/**/*,*}.{js,jsx,ts,tsx,css,less,scss,json,md,markdown}"` with the [included default config](src/configs/prettierrc.json).
