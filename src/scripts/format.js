@@ -7,7 +7,7 @@ const args = process.argv.slice(2)
 
 const config = [
   '--config',
-  path.join(__dirname, '..', 'configs', 'prettierrc.json')
+  path.join(__dirname, '..', '..', 'configs', 'prettierrc.json')
 ]
 const write = ['--write']
 const filesToApply = [
