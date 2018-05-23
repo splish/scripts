@@ -11,7 +11,7 @@ const config = [
 ]
 const write = ['--write']
 const filesToApply = [
-  '{{config,fixtures,__fixtures__,scripts,src,.storybook,stories,__stories__,tests,__tests__}/**/*,*}.{js,jsx,ts,tsx,css,less,scss,json,md,markdown}'
+  '{{config,configs,fixtures,__fixtures__,scripts,src,.storybook,stories,__stories__,tests,__tests__}/**/*,*}.{js,jsx,ts,tsx,css,less,scss,json,md,markdown}'
 ]
 
 const relativeArgs = args.map(a => a.replace(`${process.cwd()}/`, ''))
